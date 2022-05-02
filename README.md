@@ -123,6 +123,7 @@ def initialize(self, parser):
 使用IQA文件夹中的MATLAB代码，在MATLAB中运行main来对生成图像的质量进行评价
 主要关注PSNR、SSIM、FSIM
 运行结果如下图：
+
 <img src=./images/IQAresult.png>
 
 生成图片：
