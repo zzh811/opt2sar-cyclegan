@@ -22,9 +22,12 @@ conda env create -f environment.yml
 pip install visdom
 python -m visdom.server
 ```
-首次安装时间过长导致安装失败的解决办法：
-①进入Anaconda的目录：D:\anaconda3\Lib\site-packages\visdom
-②替换其中的static文件夹
+首次安装时间过长导致安装失败的解决办法：  
+
+①进入Anaconda的目录：D:\anaconda3\Lib\site-packages\visdom  
+
+②替换其中的static文件夹  
+
 ③进入python文件server，将第1917行`download_scripts()`注释掉
 
 visdom安装失败截图：
